@@ -1,0 +1,6 @@
+To run the service that you want the log-analyzer to read, give the command:
+node server.js >> server.log 2>&1
+If modified scripts in package.json (for example):
+$ npm run start:dev >> auth.log 2>&1
+
+Create .env file and give groq ai api-key, log paths, output log path,
